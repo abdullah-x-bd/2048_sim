@@ -46,7 +46,8 @@ function compare(rows){
  for(const r of rows)perSeed.get(r.seed)[circular(r.pattern)?0:1].push(r.score);
  const diffs=[...perSeed.values()].map(([a,b])=>mean(a)-mean(b)),d=mean(diffs),crit=seeds.length===500?1.964729:seeds.length===600?1.963933:1.984217;
  const margin=crit*sd(diffs)/Math.sqrt(seeds.length);
- return {circular:stats(a),other:stats(b),difference:d,paired_ci:[d-margin,d+margin],ratio:mean(a.map(r=>r.score))/mean(b.map(r=>r.score))};
+ const classStats=g=>{const s=stats(g);delete s.ci95_low;delete s.ci95_high;return s;};
+ return {circular:classStats(a),other:classStats(b),difference:d,paired_ci:[d-margin,d+margin],ratio:mean(a.map(r=>r.score))/mean(b.map(r=>r.score))};
 }
 
 function overall(rows){const h={};for(const r of rows)h[r.max_tile]=(h[r.max_tile]||0)+1;return {n:rows.length,mean_score:mean(rows.map(r=>r.score)),hist:h,attempts:rows.reduce((s,r)=>s+r.attempts,0),valid:rows.reduce((s,r)=>s+r.valid_moves,0),invalid:rows.reduce((s,r)=>s+r.invalid_moves,0),best:rows.reduce((a,b)=>a.score>=b.score?a:b),top_tile_runs:rows.filter(r=>r.max_tile===Math.max(...rows.map(x=>x.max_tile))).slice(0,10)};}
