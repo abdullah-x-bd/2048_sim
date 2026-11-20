@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2048 | Simulation Lab</title>
+<style>
+:root{color-scheme:light;--ink:#342e28;--muted:#71695f;--paper:#f8f6f0;--panel:#e8e1d5;--board:#b5a694}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,sans-serif}main{max-width:540px;margin:36px auto;padding:0 20px 36px}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.15em;font-weight:700;color:var(--muted)}header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:8px 0}h1{font-size:clamp(52px,12vw,76px);line-height:1;margin:0;letter-spacing:-.07em}
+.stats{display:flex;gap:8px}.stat{background:var(--panel);border-radius:10px;padding:8px 12px;text-align:center;min-width:70px}.stat span{display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase}.stat strong{font-size:21px;font-variant-numeric:tabular-nums}
+p{margin:10px 0 16px;color:var(--muted)}button,input{font:inherit}button{border:0;border-radius:8px;background:#55483a;color:#fff;padding:10px 15px;font-weight:700;cursor:pointer}button:hover{background:#75624e}button:focus-visible,input:focus-visible{outline:3px solid #2876a8;outline-offset:3px}button:disabled{opacity:.4;cursor:default}
+.toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap;margin:16px 0}.seed{display:flex;flex:1;min-width:100px;flex-direction:column;gap:3px;font-size:12px;color:var(--muted)}input{width:100%;border:1px solid #b9ad9e;background:white;color:var(--ink);border-radius:7px;padding:9px}
+.board-wrap{position:relative}.board{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:10px;background:var(--board);border-radius:13px;aspect-ratio:1;touch-action:none;user-select:none}
+.tile{border-radius:8px;display:grid;place-items:center;background:#c9bcad;color:#665a4f;font-weight:800;font-size:clamp(21px,7.4vw,46px);font-variant-numeric:tabular-nums;line-height:1;min-width:0}.tile.large{font-size:clamp(18px,5.5vw,36px)}.tile.extra{font-size:clamp(15px,4.5vw,29px)}.tile.new{animation:appear .14s ease-out}@keyframes appear{from{transform:scale(.55);opacity:.5}to{transform:scale(1);opacity:1}}@media(prefers-reduced-motion:reduce){.tile.new{animation:none}}
+.overlay{position:absolute;inset:0;background:#f8f6f0e8;border-radius:13px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:12px;padding:20px}.overlay[hidden]{display:none}.overlay h2{font-size:36px;margin:0}.overlay p{margin:0}
+.footer{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;margin-top:12px;color:var(--muted);font-size:13px}.controls{display:grid;grid-template-columns:repeat(3,54px);gap:6px;justify-content:center;margin:18px 0}.controls button{padding:9px;font-size:22px}.controls button:first-child{grid-column:2}.controls button:nth-child(2){grid-column:1}.note{font-size:13px;border-top:1px solid #ddd4c8;padding-top:14px}a{color:inherit}
+@media(max-width:380px){main{margin:18px auto;padding:0 12px 24px}.board{gap:6px;padding:6px}.stat{min-width:54px;padding:6px}.stat strong{font-size:18px}}
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">2048 simulation lab / manual play</div>
+<header><h1>2048</h1><div class="stats"><div class="stat"><span>Score</span><strong id="score">0</strong></div><div class="stat"><span>Best</span><strong id="best">0</strong></div></div></header>
+<p>Join matching tiles to reach 2048, then keep going. Use arrow keys, WASD, swipe, or the controls below.</p>
+<div class="toolbar"><label class="seed">Seed (optional, 0 to 4294967295)<input id="seed" type="number" min="0" max="4294967295" step="1" placeholder="Random"></label><button id="restart" type="button">New game</button></div>
+<div class="board-wrap"><div id="board" class="board" role="grid" aria-label="2048 game board" aria-rowcount="4" aria-colcount="4"></div>
+<div id="overlay" class="overlay" hidden><h2>Game over</h2><p id="final"></p><button id="again" type="button">Play again</button></div></div>
+<div class="footer"><span>Moves: <strong id="moves">0</strong></span><span>Max tile: <strong id="maximum">2</strong></span><span>Seed: <strong id="active-seed"></strong></span></div>
+<p id="status" role="status" aria-live="polite"></p>
+<div class="controls" aria-label="Move controls"><button type="button" data-dir="up" aria-label="Up">↑</button><button type="button" data-dir="left" aria-label="Left">←</button><button type="button" data-dir="down" aria-label="Down">↓</button><button type="button" data-dir="right" aria-label="Right">→</button></div>
+<div class="note">Standard rules: each valid move adds a tile, 90% chance of 2 and 10% chance of 4, uniformly placed in an empty cell. Invalid moves do not change the board or consume random numbers.</div>
+</main>
+<script src="engine.js"></script>
+<script>
+'use strict';
+const E=globalThis.Engine2048, $=id=>document.getElementById(id);
+const elements={board:$('board'),score:$('score'),best:$('best'),moves:$('moves'),maximum:$('maximum'),seed:$('seed'),active:$('active-seed'),status:$('status'),overlay:$('overlay'),final:$('final')};
+const colors={2:['#eee4da','#776e65'],4:['#ede0c8','#776e65'],8:['#f2b179','#fff'],16:['#f59563','#fff'],32:['#f67c5f','#fff'],64:['#f65e3b','#fff'],128:['#edcc61','#392e1f'],256:['#edcc51','#392e1f'],512:['#edc850','#392e1f'],1024:['#e7b936','#392e1f'],2048:['#e4a91d','#392e1f']};
+let state,rng,seed,best=0;
+try{best=Number(localStorage.getItem('2048-sim-best'))||0;}catch{}
+function render(){
+  elements.board.replaceChildren();
+  state.board.forEach((row,r)=>{
+    const group=document.createElement('div');group.setAttribute('role','row');group.style.display='contents';
+    row.forEach((value,c)=>{
+      const cell=document.createElement('div');cell.className='tile';cell.setAttribute('role','gridcell');cell.setAttribute('aria-label',value?String(value):'Empty');
+      if(value){const [bg,fg]=colors[value]||['#3c3a32','#fff'];cell.style.background=bg;cell.style.color=fg;cell.textContent=value;}
+      if(value>=1000)cell.classList.add('large');if(value>=10000)cell.classList.add('extra');
+      if(state.lastSpawn?.row===r&&state.lastSpawn?.col===c)cell.classList.add('new');
+      group.append(cell);
+    });elements.board.append(group);
+  });
+  if(state.score>best){best=state.score;try{localStorage.setItem('2048-sim-best',String(best));}catch{}}
+  elements.score.textContent=state.score;elements.best.textContent=best;elements.moves.textContent=state.moves;elements.maximum.textContent=E.maxTile(state.board);elements.active.textContent=seed;
+  elements.overlay.hidden=!state.over;
+  elements.final.textContent='Score: '+state.score+' · Highest tile: '+E.maxTile(state.board);
+  elements.status.textContent=state.over?'No legal moves remain.':state.won?'2048 reached! Keep playing to improve your score.':'';
+  document.querySelectorAll('[data-dir]').forEach(button=>button.disabled=state.over);
+}
+function start(){
+  const raw=elements.seed.value.trim();
+  if(raw!==''&&!elements.seed.checkValidity()){elements.seed.reportValidity();return;}
+  seed=raw===''?Math.floor(Math.random()*4294967296):Number(raw);
+  rng=E.seededRng(seed);state=E.createGame(rng);render();
+}
+function play(direction){if(!state||state.over)return;const next=E.step(state,direction,rng);if(next!==state){state=next;render();}}
+document.addEventListener('keydown',event=>{
+  if(event.target.matches('input,textarea,select')||event.ctrlKey||event.altKey||event.metaKey)return;
+  const dirs={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',a:'left',s:'down',d:'right'};
+  const dir=dirs[event.key]||dirs[event.key.toLowerCase()];if(dir){event.preventDefault();play(dir);}
+});
+document.querySelectorAll('[data-dir]').forEach(button=>button.addEventListener('click',()=>play(button.dataset.dir)));
+$('restart').addEventListener('click',start);$('again').addEventListener('click',start);
+let gesture=null;
+elements.board.addEventListener('pointerdown',event=>{if(event.pointerType==='mouse'&&event.button!==0)return;gesture={id:event.pointerId,x:event.clientX,y:event.clientY};elements.board.setPointerCapture(event.pointerId);});
+elements.board.addEventListener('pointerup',event=>{if(!gesture||gesture.id!==event.pointerId)return;const dx=event.clientX-gesture.x,dy=event.clientY-gesture.y;gesture=null;if(Math.max(Math.abs(dx),Math.abs(dy))<24)return;play(Math.abs(dx)>Math.abs(dy)?(dx>0?'right':'left'):(dy>0?'down':'up'));});
+elements.board.addEventListener('pointercancel',()=>gesture=null);
+start();
+</script>
+</body>
+</html>
