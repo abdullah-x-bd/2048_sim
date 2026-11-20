@@ -1,0 +1,242 @@
+[
+  {
+    "id": 43,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.7007499999999999,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 43,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.7007499999999999,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 5,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.12180666666666669,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 5,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.12180666666666669,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 41,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.06430000000000002,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 41,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.06430000000000002,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 46,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.7007499999999999,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 46,
+    "low": 3,
+    "target": 8,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.7007499999999999,
+    "initial_states": 12,
+    "nodes": 20
+  },
+  {
+    "id": 43,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.09584233847222225,
+    "initial_states": 24,
+    "nodes": 151
+  },
+  {
+    "id": 43,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.09584233847222225,
+    "initial_states": 24,
+    "nodes": 151
+  },
+  {
+    "id": 5,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.04961780986111112,
+    "initial_states": 24,
+    "nodes": 144
+  },
+  {
+    "id": 5,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.04961780986111112,
+    "initial_states": 24,
+    "nodes": 144
+  },
+  {
+    "id": 41,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.0033893329166666676,
+    "initial_states": 24,
+    "nodes": 76
+  },
+  {
+    "id": 41,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.0033893329166666676,
+    "initial_states": 24,
+    "nodes": 76
+  },
+  {
+    "id": 46,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.0033893329166666676,
+    "initial_states": 24,
+    "nodes": 76
+  },
+  {
+    "id": 46,
+    "low": 4,
+    "target": 16,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.0033893329166666676,
+    "initial_states": 24,
+    "nodes": 76
+  },
+  {
+    "id": 43,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0,
+    "initial_states": 40,
+    "nodes": 792
+  },
+  {
+    "id": 43,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0,
+    "initial_states": 40,
+    "nodes": 792
+  },
+  {
+    "id": 5,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.2689963127170378,
+    "initial_states": 40,
+    "nodes": 1388
+  },
+  {
+    "id": 5,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.2689963127170378,
+    "initial_states": 40,
+    "nodes": 1983
+  },
+  {
+    "id": 41,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.10019895752803643,
+    "initial_states": 40,
+    "nodes": 774
+  },
+  {
+    "id": 41,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.10019895752803643,
+    "initial_states": 40,
+    "nodes": 774
+  },
+  {
+    "id": 46,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "fixed",
+    "prob": 0.00877560371832639,
+    "initial_states": 40,
+    "nodes": 663
+  },
+  {
+    "id": 46,
+    "low": 5,
+    "target": 32,
+    "slack": 16,
+    "mode": "chain",
+    "prob": 0.00877560371832639,
+    "initial_states": 40,
+    "nodes": 663
+  }
+]
