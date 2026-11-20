@@ -48,6 +48,11 @@ console.log(state);
 
 The engine separates player actions from random environment transitions, so expectimax, Monte Carlo methods, heuristic search and reinforcement learning can all use the same rules. The initial version contains no solver.
 
+
+## Experiment 08: extended play and theoretical ceiling
+
+[Extended-play research](experiments/08-extended-play/) records 12 completed search configurations and a spawn-mass upper bound of approximately 9.09% for reaching 131072 under standard independent random spawning. External solvers report 86.1% at 32768 and 8.4% at 65536; the optimal majority-success tile is either 32768 or 65536. The latter remains unresolved. Our initial extended-play pilot reached 4096, not the external state of the art.
+
 ## Experiment 07: simplified majority-winning policies
 
 [Policy distillation and final holdout](experiments/07-policy-distillation/) adds 5850 completed game configurations, bringing the project total to 195,700. Sparse imitation of the 73.33% computational teacher failed in closed-loop testing. A coarse positional score and single hypothetical 2-spawn when the board has four or fewer empty cells produced four policies significantly above 50% on 300 fresh seeds each (Holm-adjusted exact tests). A two-candidate shortlist won 172/300 (57.33%; Wilson 95% CI 51.68% to 62.80%); probing was indicated on 36.90% of moves. A most-merges-next variant won 194/300 (64.67%; CI 59.10% to 69.86%). [Exact rules and data](experiments/07-policy-distillation/README.md).
