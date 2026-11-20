@@ -48,7 +48,13 @@ console.log(state);
 
 The engine separates player actions from random environment transitions, so expectimax, Monte Carlo methods, heuristic search and reinforcement learning can all use the same rules. The initial version contains no solver.
 
-## Latest result: Experiment 03 (all four-input words)
+## Human-followable strategy pilot (Experiment 04)
+
+[Full pilot, rules, and raw traces](experiments/04-simple-human-policies-pilot/) tests 18 configurations on 1000 fresh shared seeds each. The project now has 184,400 simulated games (including behaviorally equivalent configurations).
+
+**First 2048 successes:** a one-step corner-preserving, merge-count-first and snake-order tie-break rule achieved 2048 twice in 1000 games. Its mean score was 5562.31 and 11% reached 1024. The best blind-cycle recovery rule averaged 4665.73 but recorded zero wins. The new best final score is 27444. The winning rule is not yet a reliably successful strategy, and its exact numerical tie-break is not a tested human approximation. The next objective is maximizing 2048 success probability subject to simple, visually executable rules, rather than maximizing score.
+
+## Experiment 03: all four-input words
 
 [Experiment 03: exhaustive 256-pattern search and held-out validation](experiments/03-all-four-input-patterns/) expands the study to **128,000 discovery games and 24,000 held-out games**, bringing the cumulative project to **166,400 games**.
 
