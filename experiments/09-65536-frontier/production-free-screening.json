@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 0,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 1,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 118
+  },
+  {
+    "id": 2,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 3,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 4,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 5,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 6,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.16058500000000006,
+    "initial_states": 12,
+    "nodes": 126
+  },
+  {
+    "id": 7,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.16058500000000006,
+    "initial_states": 12,
+    "nodes": 126
+  },
+  {
+    "id": 8,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 9,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 118
+  },
+  {
+    "id": 10,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010000000000000002,
+    "initial_states": 12,
+    "nodes": 136
+  },
+  {
+    "id": 11,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010000000000000002,
+    "initial_states": 12,
+    "nodes": 136
+  },
+  {
+    "id": 12,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 13,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 118
+  },
+  {
+    "id": 14,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 15,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 16,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 17,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 18,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 19,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 20,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010000000000000002,
+    "initial_states": 12,
+    "nodes": 136
+  },
+  {
+    "id": 21,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 22,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 23,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 24,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 25,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 26,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 27,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 118
+  },
+  {
+    "id": 28,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 29,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 30,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 31,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 32,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 33,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 114
+  },
+  {
+    "id": 34,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 35,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 36,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 37,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 38,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010000000000000002,
+    "initial_states": 12,
+    "nodes": 136
+  },
+  {
+    "id": 39,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010000000000000002,
+    "initial_states": 12,
+    "nodes": 136
+  },
+  {
+    "id": 40,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 41,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.16058500000000003,
+    "initial_states": 12,
+    "nodes": 126
+  },
+  {
+    "id": 42,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493499999999997,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 43,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493499999999997,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 44,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 45,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 46,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493499999999998,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 47,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493499999999998,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 48,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 49,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 50,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 51,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 52,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 53,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 54,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010000000000000002,
+    "initial_states": 12,
+    "nodes": 136
+  },
+  {
+    "id": 55,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 56,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 57,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 118
+  },
+  {
+    "id": 58,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 59,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 60,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 61,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 62,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 63,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 64,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 65,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.6430000000000001,
+    "initial_states": 12,
+    "nodes": 76
+  },
+  {
+    "id": 66,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.47905000000000003,
+    "initial_states": 12,
+    "nodes": 72
+  },
+  {
+    "id": 67,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 68,
+    "low": 3,
+    "target": 8,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.7493500000000001,
+    "initial_states": 12,
+    "nodes": 94
+  },
+  {
+    "id": 0,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 1,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4599300221083334,
+    "initial_states": 24,
+    "nodes": 5492
+  },
+  {
+    "id": 2,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 3,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 4,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 5,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3462
+  },
+  {
+    "id": 6,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.0687917713388889,
+    "initial_states": 24,
+    "nodes": 7446
+  },
+  {
+    "id": 7,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.0687917713388889,
+    "initial_states": 24,
+    "nodes": 7446
+  },
+  {
+    "id": 8,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.39322305566250004,
+    "initial_states": 24,
+    "nodes": 4228
+  },
+  {
+    "id": 9,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.18964083246597227,
+    "initial_states": 24,
+    "nodes": 8065
+  },
+  {
+    "id": 10,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010788594333333339,
+    "initial_states": 24,
+    "nodes": 11112
+  },
+  {
+    "id": 11,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010788594333333339,
+    "initial_states": 24,
+    "nodes": 11112
+  },
+  {
+    "id": 12,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.39322305566250004,
+    "initial_states": 24,
+    "nodes": 4228
+  },
+  {
+    "id": 13,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.37892302440208336,
+    "initial_states": 24,
+    "nodes": 6166
+  },
+  {
+    "id": 14,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 15,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 16,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 17,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 18,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 19,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 20,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.18964083246597227,
+    "initial_states": 24,
+    "nodes": 8033
+  },
+  {
+    "id": 21,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 22,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.34494727025,
+    "initial_states": 24,
+    "nodes": 3895
+  },
+  {
+    "id": 23,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.34494727025,
+    "initial_states": 24,
+    "nodes": 3895
+  },
+  {
+    "id": 24,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 25,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 26,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 27,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4599300221083334,
+    "initial_states": 24,
+    "nodes": 5492
+  },
+  {
+    "id": 28,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 29,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 30,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458335,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 31,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.34494727025,
+    "initial_states": 24,
+    "nodes": 3895
+  },
+  {
+    "id": 32,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.34494727025,
+    "initial_states": 24,
+    "nodes": 3895
+  },
+  {
+    "id": 33,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4599300221083334,
+    "initial_states": 24,
+    "nodes": 5488
+  },
+  {
+    "id": 34,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 35,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458335,
+    "initial_states": 24,
+    "nodes": 3462
+  },
+  {
+    "id": 36,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.34494727025,
+    "initial_states": 24,
+    "nodes": 3895
+  },
+  {
+    "id": 37,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.34494727025,
+    "initial_states": 24,
+    "nodes": 3895
+  },
+  {
+    "id": 38,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010788594333333339,
+    "initial_states": 24,
+    "nodes": 11112
+  },
+  {
+    "id": 39,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.010788594333333339,
+    "initial_states": 24,
+    "nodes": 11112
+  },
+  {
+    "id": 40,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 41,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.31333370750000006,
+    "initial_states": 24,
+    "nodes": 5474
+  },
+  {
+    "id": 42,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 43,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 44,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458335,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 45,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 46,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.31333370750000006,
+    "initial_states": 24,
+    "nodes": 5470
+  },
+  {
+    "id": 47,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4599300221083334,
+    "initial_states": 24,
+    "nodes": 5502
+  },
+  {
+    "id": 48,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 49,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 50,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 51,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3462
+  },
+  {
+    "id": 52,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 53,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 54,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.18964083246597227,
+    "initial_states": 24,
+    "nodes": 8053
+  },
+  {
+    "id": 55,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 56,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 57,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4599300221083334,
+    "initial_states": 24,
+    "nodes": 5492
+  },
+  {
+    "id": 58,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 59,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 60,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2415
+  },
+  {
+    "id": 61,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 62,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458335,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 63,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 64,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458335,
+    "initial_states": 24,
+    "nodes": 3470
+  },
+  {
+    "id": 65,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3258887254458334,
+    "initial_states": 24,
+    "nodes": 3460
+  },
+  {
+    "id": 66,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.4066112050000003,
+    "initial_states": 24,
+    "nodes": 2399
+  },
+  {
+    "id": 67,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  },
+  {
+    "id": 68,
+    "low": 4,
+    "target": 16,
+    "mode": "free",
+    "slack": 16,
+    "prob": 0.3449472702500001,
+    "initial_states": 24,
+    "nodes": 3893
+  }
+]
