@@ -1,0 +1,10 @@
+policy,n,wins,reach1024,mean_score,mean_moves
+coarse_order_one,50,12,37,14838,841.52
+coarse_order_det,50,4,20,9785.68,597.22
+coarse_order_probe,50,38,49,19421.52,976.72
+coarse_order_all,50,36,50,19852.88,1011.12
+large_order_probe,50,24,47,17667.12,936.56
+large_order_all,50,36,47,19011.04,964.3
+large_order_space,50,21,47,17513.84,935.94
+rounded_teacher_all,50,38,50,20016.88,1009.9
+rounded_teacher_probe,50,36,46,19119.36,969.62
