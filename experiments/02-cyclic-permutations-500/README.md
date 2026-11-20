@@ -32,3 +32,21 @@ Run `node experiments/02-cyclic-permutations-500/run.js` from the repository roo
 - traces-01.csv to traces-06.csv: 12000 game traces, split into six files containing four patterns each.
 
 The simulations were executed against the repository engine and the results were committed to main. This is not a GitHub Actions run.
+
+## Extended statistical analysis
+
+See [STATISTICAL_ANALYSIS.md](STATISTICAL_ANALYSIS.md) for all six paired tests, Holm correction, effect sizes, exact sign test, distribution quantiles, shared-seed handling, and an early-board mechanism replay. The fresh class score advantage is positive on all 500 seeds, and across both experiments on all 600 seeds. The early replay covers 144,000 attempts; reversal transitions generate substantially fewer merges than perpendicular transitions in the non-circular class.
+
+![Ranked strategies](figures/01-strategy-forest.svg)
+
+![Score distributions](figures/02-score-distribution.svg)
+
+![Move survival](figures/03-move-survival.svg)
+
+![Tile thresholds](figures/04-tile-thresholds.svg)
+
+![Paired differences](figures/05-paired-differences.svg)
+
+![Early mechanism](figures/06-early-mechanism.svg)
+
+Regenerate with `node experiments/02-cyclic-permutations-500/statistics.js` and `node experiments/02-cyclic-permutations-500/figures.js`. Machine-readable output: [statistics.json](statistics.json).
