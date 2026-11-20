@@ -48,6 +48,27 @@ console.log(state);
 
 The engine separates player actions from random environment transitions, so expectimax, Monte Carlo methods, heuristic search and reinforcement learning can all use the same rules. The initial version contains no solver.
 
+## Latest result: Experiment 03 (all four-input words)
+
+[Experiment 03: exhaustive 256-pattern search and held-out validation](experiments/03-all-four-input-patterns/) expands the study to **128,000 discovery games and 24,000 held-out games**, bringing the cumulative project to **166,400 games**.
+
+The 512 ceiling has been broken. The new experiments record 101 games reaching 1024 (100 biased alternating and one circular), but still no 2048 successes. The new best score is 14,052. Every one of the 16 highest-ranked discovery patterns uses three distinct directions, repeats one direction, omits its opposite and changes axis at every transition.
+
+| Family | Discovery mean score | Held-out mean score | Held-out 512+ |
+|---|---:|---:|---:|
+| Biased alternating (e.g. 0102) | 3785.49 | 3786.19 | 29.525% |
+| Circular (e.g. 0132) | 2283.17 | 2284.70 | 5.925% |
+
+The held-out paired difference is 1501.50 points (95% CI [1455.42, 1547.57]), positive on 982 of 1000 shared seeds. Exact sign test p=2.546e-263 under the independent-seed model. Two-direction alternating policies stall in 100% of discovery games; biased alternating policies stall in 40.93% of holdout games. An omitted-direction recovery rule is the next proposed experiment.
+
+![Exhaustive family comparison](experiments/03-all-four-input-patterns/figures/01-family-comparison.svg)
+
+![Held-out tile attainment](experiments/03-all-four-input-patterns/figures/03-holdout-thresholds.svg)
+
+![Corner occupancy](experiments/03-all-four-input-patterns/figures/04-stagnation-corner.svg)
+
+The strongest family rarely keeps the largest tile in a corner. A hypothesis is that anchoring toward an edge, and sweeping in the perpendicular axis, improves interaction without sacrificing directional organization. This has not been established causally. No success at 2048 is not proof of impossibility. [Full methodology, results, files and reproduction](experiments/03-all-four-input-patterns/README.md).
+
 ## Research results: fixed repeating four-direction policies
 
 The first two experiments evaluate all 24 permutations of up (0), left (1), right (2), and down (3), repeatedly and without adapting to the board. **Every attempted input is counted, even if the board does not change.** Standard tile-spawn probabilities and game termination are unchanged.
@@ -60,7 +81,7 @@ The first two experiments evaluate all 24 permutations of up (0), left (1), righ
 
 ### Central finding: the geometry of the cycle matters
 
-The 24 patterns belong to two geometric classes under rotations and reflections of the square board: 8 circular cycles (alternating horizontal and vertical moves), and 16 other cycles (two opposite-direction reversals per period).
+The 24 patterns belong to two cyclic-geometric categories (three D4 orbits of ordered permutations, with the two non-circular orbits grouped): 8 circular cycles (alternating horizontal and vertical moves), and 16 other cycles (two opposite-direction reversals per period).
 
 | Combined metric | Circular | Other |
 | --- | ---: | ---: |
@@ -88,7 +109,7 @@ Replaying the first 12 inputs of all 12,000 replication games reveals that rever
 
 Read the [full statistical analysis](experiments/02-cyclic-permutations-500/STATISTICAL_ANALYSIS.md), [paired seed differences](experiments/02-cyclic-permutations-500/figures/05-paired-differences.svg), [machine-readable statistics](experiments/02-cyclic-permutations-500/statistics.json), and [combined pattern summaries](experiments/02-cyclic-permutations-500/combined-summary.csv). All raw outcomes and attempted-step traces are retained.
 
-The 14,400 games did not produce a 1024 or 2048 tile. This is a finite-sample result, not proof no such cycle can solve the game. Individual rankings within a geometric class are descriptive because the patterns are equivalent in distribution under ideal symmetric spawning.
+The 14,400 games did not produce a 1024 or 2048 tile. This is a finite-sample result, not proof no such cycle can solve the game. Individual rankings are descriptive. D4-related patterns are equivalent in distribution under ideal symmetric spawning, but changing the initial phase need not be equivalent.
 
 ### Reproduce the experiments and graphs
 

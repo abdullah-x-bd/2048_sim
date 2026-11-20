@@ -19,7 +19,7 @@ Direction codes: 0 up, 1 left, 2 right, 3 down. Each of the 24 permutations is r
 
 The eight circular patterns again occupy the top eight ranks. In the fresh replication, their mean score is 2298.884 versus 1098.7125 for the other 16 patterns, a ratio of 2.09234. The seed-paired mean difference is 1200.1715, with a 95% t interval of [1162.39, 1237.95], treating the 500 seed-level differences as observations. Combined ratio: 2.08330. The highest-scoring game was pattern 2013, seed 535, with 7256 points and a 512 tile.
 
-No success was observed, but finite sampling does not prove impossibility. Patterns within a geometric class are equivalent in distribution under symmetric random spawning; the empirical ranking is descriptive. Pattern-level confidence intervals are marginal; the class comparison uses seed-level paired differences because the same seeds are reused across patterns.
+No success was observed, but finite sampling does not prove impossibility. D4-related patterns are equivalent in distribution under symmetric spawning, but the non-circular category contains two D4 orbits with potentially different starting phases. Empirical rankings are descriptive. Pattern-level confidence intervals are marginal; the class comparison uses seed-level paired differences because the same seeds are reused across patterns.
 
 ## Files and reproduction
 

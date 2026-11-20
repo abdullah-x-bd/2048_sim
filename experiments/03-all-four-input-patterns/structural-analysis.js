@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path');
+function table(s){const [h,...lines]=s.trim().split('\n'),k=h.split(',');return lines.map(l=>Object.fromEntries(l.split(',').map((v,i)=>[k[i],i?Number(v):v])));}
+const rows=table(fs.readFileSync(path.join(__dirname,'summary.csv'),'utf8')).sort((a,b)=>b.mean_score-a.mean_score||a.pattern.localeCompare(b.pattern));
+const avg=(a,k)=>a.reduce((s,r)=>s+r[k],0)/a.length,sum=(a,k)=>a.reduce((s,r)=>s+r[k],0);
+function aggregate(g){return {patterns:g.length,games:sum(g,'n'),mean_score:avg(g,'mean_score'),mean_moves:avg(g,'mean_moves'),mean_attempts:avg(g,'mean_attempts'),stagnation:sum(g,'stagnated')/sum(g,'n'),reach256:sum(g,'reach256'),reach512:sum(g,'reach512'),reach1024:sum(g,'reach1024'),reach2048:sum(g,'reach2048'),best_score:Math.max(...g.map(r=>r.best_score)),best_tile:Math.max(...g.map(r=>r.best_tile)),corner_fraction:g.reduce((s,r)=>s+r.corner_fraction*r.mean_moves,0)/sum(g,'mean_moves'),mean_empty:g.reduce((s,r)=>s+r.mean_empty*r.mean_moves,0)/sum(g,'mean_moves'),invalid_rate:g.reduce((s,r)=>s+r.invalid_rate*r.mean_attempts,0)/sum(g,'mean_attempts')};}
+const cls=r=>r.turn===4?(r.distinct===3?'biased_alternating':r.distinct===4?'circular':'two_direction_alternating'):'other';
+const groupby=k=>Object.fromEntries([...new Set(rows.map(k))].sort().map(v=>[v,aggregate(rows.filter(r=>k(r)===v))]));
+const stats={overall:aggregate(rows),by_distinct:groupby(r=>r.distinct),by_turn:groupby(r=>r.turn),by_reversal:groupby(r=>r.reverse),by_repeat:groupby(r=>r.repeat),by_bias:groupby(r=>r.bias.toFixed(6)),by_class:groupby(cls),three_direction_by_transition:groupby(r=>r.distinct===3?`${r.turn}T-${r.reverse}R-${r.repeat}S`:'not_three'),top:rows.slice(0,20).map(r=>({pattern:r.pattern,mean_score:r.mean_score,reach512:r.reach512,reach1024:r.reach1024,stagnated:r.stagnated,best_score:r.best_score})),reached1024:rows.filter(r=>r.reach1024>0).map(r=>[r.pattern,r.reach1024]),total_attempts:Math.round(sum(rows,'mean_attempts')*500),total_valid:Math.round(sum(rows,'mean_moves')*500)};
+fs.writeFileSync(path.join(__dirname,'structural-summary.json'),JSON.stringify(stats,null,2)+'\n');
