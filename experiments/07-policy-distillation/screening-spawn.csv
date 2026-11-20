@@ -1,0 +1,3 @@
+policy,n,wins,reach1024,mean_score,mean_moves
+spawn_small,50,0,11,5963.6,406.32
+spawn_full,50,21,38,15109.6,811.56
