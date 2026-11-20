@@ -1,0 +1,5 @@
+policy,n,wins,rate,reach1024,mean_score,mean_moves
+simple_combined,200,1,0.005,89,9478.5,591.775
+space_safe_2,200,0,0,94,9685,603.425
+empty_order_2,200,0,0,84,9056.44,570.155
+coarse_visual,200,48,0.24,166,14999.96,842.42
