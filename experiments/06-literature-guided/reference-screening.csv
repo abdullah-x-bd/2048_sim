@@ -1,0 +1,8 @@
+policy,n,wins,rate,reach1024,mean_score,mean_moves
+xiao_like,50,21,0.42,41,16926.48,921.6
+more_space,50,31,0.62,48,19319.76,1002.84
+more_pairs,50,15,0.3,38,15120.56,842.04
+less_disorder,50,12,0.24,39,16130.16,917.48
+coarse_visual,50,8,0.16,42,14524.48,830.5
+coarse_large_order,50,7,0.14,32,12652,736.16
+coarse_large_order_det,50,0,0,0,4883.52,353.54
