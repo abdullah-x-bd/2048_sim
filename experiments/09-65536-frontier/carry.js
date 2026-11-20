@@ -23,8 +23,8 @@ function evaluate(b){
  return 1000*k+80*clear-12*dist+5*empty+2*pairs;
 }
 
-function play(F,start,seed,depth=0,cap=40){
- let board=start.slice(),next=new Uint8Array(16),rng=F.init(seed).rng,moves=0,trace='',maxPhase=0; // independent synthetic RNG stream after two standard initial draws
+function play(F,start,seed,depth=0,cap=40,rngOverride=null){
+ let board=start.slice(),next=new Uint8Array(16),rng=rngOverride||F.init(seed).rng,moves=0,trace='',maxPhase=0; // independent synthetic RNG stream after two standard initial draws
  const scratch=Array.from({length:depth+2},()=>new Uint8Array(16));
  function pick(b,d){let best=-Infinity,dir=-1;const a=scratch[d];for(let i=0;i<4;i++){if(F.move(b,i,a)<0)continue;
  let v=evaluate(a);if(v>=10000000)return [v,i];
