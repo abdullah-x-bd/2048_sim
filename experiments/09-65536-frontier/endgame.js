@@ -16,6 +16,8 @@ function createSolver(F,path,low,slack,mode="frozen",limit=500000){
    if(phase<=15){
     while(nextPhase<=15&&!a.includes(nextPhase))nextPhase++;
     if(mode==="release"&&nextPhase>phase)nextPhase=16;
+    if(mode==="pair_release"&&Array.from(a).filter(x=>x===phase).length>=2)nextPhase=16;
+    if(mode==="mass_release"&&mass>=65536)nextPhase=16;
     if(nextPhase<=15){for(let j=nextPhase;j<=15;j++)if(a[anchors[j]]!==j){valid=false;break;}}
    }
    if(!valid)continue;actions++;
