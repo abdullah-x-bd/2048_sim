@@ -1,0 +1,38 @@
+[
+  {
+    "file": "carry-screening-games.csv",
+    "n": 6900,
+    "wins": 1785,
+    "moves": 96490
+  },
+  {
+    "file": "carry-holdout-games.csv",
+    "n": 3600,
+    "wins": 3249,
+    "moves": 71771
+  },
+  {
+    "file": "hybrid-screening-games.csv",
+    "n": 2600,
+    "wins": 444,
+    "moves": 26507
+  },
+  {
+    "file": "joint-holdout-games.csv",
+    "n": 4800,
+    "wins": 1641,
+    "moves": 63320
+  },
+  {
+    "file": "joint-confirmation-games.csv",
+    "n": 4000,
+    "wins": 1659,
+    "moves": 48733
+  },
+  {
+    "file": "stage-screening-games.csv",
+    "n": 720,
+    "wins": 3,
+    "moves": 27406
+  }
+]
