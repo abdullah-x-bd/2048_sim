@@ -1,0 +1,5 @@
+policy,n,wins,reach1024,mean_score,mean_moves
+3_visual,200,0,3,4501.56,328.145
+4_visual,200,0,0,3402.54,264.04
+immediate,200,1,49,7021,458.925
+two_move,200,1,60,7640.98,491.815
