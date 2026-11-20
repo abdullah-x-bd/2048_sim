@@ -1,0 +1,511 @@
+{
+  "fresh": {
+    "n": 12000,
+    "mean_score": 1498.7696666666666,
+    "hist": {
+      "16": 20,
+      "32": 560,
+      "64": 3241,
+      "128": 5389,
+      "256": 2544,
+      "512": 246
+    },
+    "attempts": 1779126,
+    "valid": 1747279,
+    "invalid": 31847,
+    "best": {
+      "pattern": "2013",
+      "seed": 535,
+      "score": 7256,
+      "max_tile": 512,
+      "valid_moves": 502,
+      "attempts": 508,
+      "invalid_moves": 6,
+      "won": 0
+    },
+    "top_tile_runs": [
+      {
+        "pattern": "0132",
+        "seed": 104,
+        "score": 5952,
+        "max_tile": 512,
+        "valid_moves": 387,
+        "attempts": 392,
+        "invalid_moves": 5,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 105,
+        "score": 4876,
+        "max_tile": 512,
+        "valid_moves": 323,
+        "attempts": 326,
+        "invalid_moves": 3,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 113,
+        "score": 4656,
+        "max_tile": 512,
+        "valid_moves": 318,
+        "attempts": 322,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 119,
+        "score": 4700,
+        "max_tile": 512,
+        "valid_moves": 324,
+        "attempts": 328,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 130,
+        "score": 6340,
+        "max_tile": 512,
+        "valid_moves": 429,
+        "attempts": 432,
+        "invalid_moves": 3,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 134,
+        "score": 5384,
+        "max_tile": 512,
+        "valid_moves": 367,
+        "attempts": 369,
+        "invalid_moves": 2,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 166,
+        "score": 5336,
+        "max_tile": 512,
+        "valid_moves": 372,
+        "attempts": 376,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 185,
+        "score": 5284,
+        "max_tile": 512,
+        "valid_moves": 363,
+        "attempts": 369,
+        "invalid_moves": 6,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 203,
+        "score": 6164,
+        "max_tile": 512,
+        "valid_moves": 403,
+        "attempts": 409,
+        "invalid_moves": 6,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 243,
+        "score": 4704,
+        "max_tile": 512,
+        "valid_moves": 322,
+        "attempts": 325,
+        "invalid_moves": 3,
+        "won": 0
+      }
+    ]
+  },
+  "previous": {
+    "n": 2400,
+    "mean_score": 1478.3366666666666,
+    "hist": {
+      "16": 5,
+      "32": 126,
+      "64": 611,
+      "128": 1128,
+      "256": 487,
+      "512": 43
+    },
+    "attempts": 352103,
+    "valid": 345937,
+    "invalid": 6166,
+    "best": {
+      "pattern": "0231",
+      "seed": 48,
+      "score": 6812,
+      "max_tile": 512,
+      "valid_moves": 461,
+      "attempts": 470,
+      "invalid_moves": 9,
+      "won": 0
+    },
+    "top_tile_runs": [
+      {
+        "pattern": "0132",
+        "seed": 34,
+        "score": 4984,
+        "max_tile": 512,
+        "valid_moves": 335,
+        "attempts": 343,
+        "invalid_moves": 8,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 36,
+        "score": 4908,
+        "max_tile": 512,
+        "valid_moves": 344,
+        "attempts": 346,
+        "invalid_moves": 2,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 50,
+        "score": 4936,
+        "max_tile": 512,
+        "valid_moves": 346,
+        "attempts": 350,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 53,
+        "score": 5396,
+        "max_tile": 512,
+        "valid_moves": 379,
+        "attempts": 386,
+        "invalid_moves": 7,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 55,
+        "score": 4892,
+        "max_tile": 512,
+        "valid_moves": 344,
+        "attempts": 350,
+        "invalid_moves": 6,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 80,
+        "score": 5440,
+        "max_tile": 512,
+        "valid_moves": 380,
+        "attempts": 389,
+        "invalid_moves": 9,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 84,
+        "score": 5456,
+        "max_tile": 512,
+        "valid_moves": 386,
+        "attempts": 390,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0231",
+        "seed": 26,
+        "score": 5032,
+        "max_tile": 512,
+        "valid_moves": 341,
+        "attempts": 345,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0231",
+        "seed": 44,
+        "score": 5012,
+        "max_tile": 512,
+        "valid_moves": 350,
+        "attempts": 355,
+        "invalid_moves": 5,
+        "won": 0
+      },
+      {
+        "pattern": "0231",
+        "seed": 48,
+        "score": 6812,
+        "max_tile": 512,
+        "valid_moves": 461,
+        "attempts": 470,
+        "invalid_moves": 9,
+        "won": 0
+      }
+    ]
+  },
+  "combined": {
+    "n": 14400,
+    "mean_score": 1495.3641666666667,
+    "hist": {
+      "16": 25,
+      "32": 686,
+      "64": 3852,
+      "128": 6517,
+      "256": 3031,
+      "512": 289
+    },
+    "attempts": 2131229,
+    "valid": 2093216,
+    "invalid": 38013,
+    "best": {
+      "pattern": "2013",
+      "seed": 535,
+      "score": 7256,
+      "max_tile": 512,
+      "valid_moves": 502,
+      "attempts": 508,
+      "invalid_moves": 6,
+      "won": 0
+    },
+    "top_tile_runs": [
+      {
+        "pattern": "0132",
+        "seed": 34,
+        "score": 4984,
+        "max_tile": 512,
+        "valid_moves": 335,
+        "attempts": 343,
+        "invalid_moves": 8,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 36,
+        "score": 4908,
+        "max_tile": 512,
+        "valid_moves": 344,
+        "attempts": 346,
+        "invalid_moves": 2,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 50,
+        "score": 4936,
+        "max_tile": 512,
+        "valid_moves": 346,
+        "attempts": 350,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 53,
+        "score": 5396,
+        "max_tile": 512,
+        "valid_moves": 379,
+        "attempts": 386,
+        "invalid_moves": 7,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 55,
+        "score": 4892,
+        "max_tile": 512,
+        "valid_moves": 344,
+        "attempts": 350,
+        "invalid_moves": 6,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 80,
+        "score": 5440,
+        "max_tile": 512,
+        "valid_moves": 380,
+        "attempts": 389,
+        "invalid_moves": 9,
+        "won": 0
+      },
+      {
+        "pattern": "0132",
+        "seed": 84,
+        "score": 5456,
+        "max_tile": 512,
+        "valid_moves": 386,
+        "attempts": 390,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0231",
+        "seed": 26,
+        "score": 5032,
+        "max_tile": 512,
+        "valid_moves": 341,
+        "attempts": 345,
+        "invalid_moves": 4,
+        "won": 0
+      },
+      {
+        "pattern": "0231",
+        "seed": 44,
+        "score": 5012,
+        "max_tile": 512,
+        "valid_moves": 350,
+        "attempts": 355,
+        "invalid_moves": 5,
+        "won": 0
+      },
+      {
+        "pattern": "0231",
+        "seed": 48,
+        "score": 6812,
+        "max_tile": 512,
+        "valid_moves": 461,
+        "attempts": 470,
+        "invalid_moves": 9,
+        "won": 0
+      }
+    ]
+  },
+  "classes": {
+    "fresh": {
+      "circular": {
+        "n": 4000,
+        "mean_score": 2298.884,
+        "median_score": 2328,
+        "sd_score": 1101.1598452519052,
+        "ci95_low": 2264.337063907268,
+        "ci95_high": 2333.430936092732,
+        "best_score": 7256,
+        "best_tile": 512,
+        "mean_valid_moves": 197.77175,
+        "mean_attempts": 200.35875,
+        "invalid_moves": 10348,
+        "reach_256": 2221,
+        "reach_512": 246,
+        "reach_1024": 0,
+        "reach_2048": 0
+      },
+      "other": {
+        "n": 8000,
+        "mean_score": 1098.7125,
+        "median_score": 1068,
+        "sd_score": 519.5637628402311,
+        "ci95_low": 1087.186382936642,
+        "ci95_high": 1110.238617063358,
+        "best_score": 3880,
+        "best_tile": 256,
+        "mean_valid_moves": 119.524,
+        "mean_attempts": 122.211375,
+        "invalid_moves": 21499,
+        "reach_256": 569,
+        "reach_512": 0,
+        "reach_1024": 0,
+        "reach_2048": 0
+      },
+      "difference": 1200.1715,
+      "paired_ci": [
+        1162.3919924115405,
+        1237.9510075884593
+      ],
+      "ratio": 2.092343538459788
+    },
+    "previous": {
+      "circular": {
+        "n": 800,
+        "mean_score": 2238.415,
+        "median_score": 2258,
+        "sd_score": 1037.9846786038179,
+        "ci95_low": 2165.597608772003,
+        "ci95_high": 2311.232391227997,
+        "best_score": 6812,
+        "best_tile": 512,
+        "mean_valid_moves": 193.7675,
+        "mean_attempts": 196.1225,
+        "invalid_moves": 1884,
+        "reach_256": 425,
+        "reach_512": 43,
+        "reach_1024": 0,
+        "reach_2048": 0
+      },
+      "other": {
+        "n": 1600,
+        "mean_score": 1098.2975,
+        "median_score": 1092,
+        "sd_score": 519.6945574223232,
+        "ci95_low": 1072.5178306088787,
+        "ci95_high": 1124.077169391121,
+        "best_score": 3272,
+        "best_tile": 256,
+        "mean_valid_moves": 119.326875,
+        "mean_attempts": 122.003125,
+        "invalid_moves": 4282,
+        "reach_256": 105,
+        "reach_512": 0,
+        "reach_1024": 0,
+        "reach_2048": 0
+      },
+      "difference": 1140.1175,
+      "paired_ci": [
+        1057.8933856243973,
+        1222.3416143756028
+      ],
+      "ratio": 2.038077114807236
+    },
+    "combined": {
+      "circular": {
+        "n": 4800,
+        "mean_score": 2288.8058333333333,
+        "median_score": 2324,
+        "sd_score": 1091.0125059744637,
+        "ci95_low": 2257.559556490484,
+        "ci95_high": 2320.052110176183,
+        "best_score": 7256,
+        "best_tile": 512,
+        "mean_valid_moves": 197.104375,
+        "mean_attempts": 199.65270833333332,
+        "invalid_moves": 12232,
+        "reach_256": 2646,
+        "reach_512": 289,
+        "reach_1024": 0,
+        "reach_2048": 0
+      },
+      "other": {
+        "n": 9600,
+        "mean_score": 1098.6433333333334,
+        "median_score": 1072,
+        "sd_score": 519.5585128883502,
+        "ci95_low": 1088.1215824584306,
+        "ci95_high": 1109.1650842082363,
+        "best_score": 3880,
+        "best_tile": 256,
+        "mean_valid_moves": 119.49114583333333,
+        "mean_attempts": 122.17666666666666,
+        "invalid_moves": 25781,
+        "reach_256": 674,
+        "reach_512": 0,
+        "reach_1024": 0,
+        "reach_2048": 0
+      },
+      "difference": 1190.1625,
+      "paired_ci": [
+        1155.8738641958516,
+        1224.4511358041482
+      ],
+      "ratio": 2.083301981534802
+    }
+  }
+}
