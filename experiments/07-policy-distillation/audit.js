@@ -1,0 +1,3 @@
+'use strict';
+function audit(F,p,row){let {board,rng}=F.init(row.seed),next=new Uint8Array(16),t=new Uint8Array(16),score=0,probeTurns=0,probes=0,turns=0;for(const ch of row.trace){let e=0,legal=0,win=false;for(const x of board)if(!x)e++;for(let d=0;d<4;d++){if(F.move(board,d,t)>=0){legal++;if(Math.max(...t)>=11)win=true;}}if(e<=p.threshold&&!win){probeTurns++;probes+=Math.min(p.shortlist??4,legal);}const g=F.move(board,+ch,next);if(g<0)throw Error("illegal trace");score+=g;turns++;[board,next]=[next,board];F.spawn(board,rng);}if(score!==row.score||2**Math.max(...board)!==row.tile||turns!==row.moves)throw Error("audit mismatch");return {probeTurns,probes,turns};}
+module.exports=audit;
