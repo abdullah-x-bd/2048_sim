@@ -48,6 +48,14 @@ console.log(state);
 
 The engine separates player actions from random environment transitions, so expectimax, Monte Carlo methods, heuristic search and reinforcement learning can all use the same rules. The initial version contains no solver.
 
+## Literature-guided research (Experiments 05 and 06)
+
+[Experiment 06: literature review and benchmarks](experiments/06-literature-guided/) includes published human-oriented heuristic research, stochastic search, and learned afterstate evaluation. The project has 189,850 completed game configurations across all experiments. The first independently validated computational reference exceeding 50% is **space_1080: 220/300 wins (73.33%; Wilson 95% CI 68.06% to 78.02%)**. It uses weighted positional evaluation and stochastic lookahead, not a simple human policy. The best coarse stochastic holdout reaches 24%; the best simplified deterministic two-move holdout reaches 0.5%. The human objective remains unmet.
+
+![Held-out win rates](experiments/06-literature-guided/win-rates.svg)
+
+The strongest next research direction is to distill successful reference decisions into a short, visual decision list and evaluate its closed-loop win probability on fresh seeds. See the [literature review and full results](experiments/06-literature-guided/README.md).
+
 ## Human-followable strategy pilot (Experiment 04)
 
 [Full pilot, rules, and raw traces](experiments/04-simple-human-policies-pilot/) tests 18 configurations on 1000 fresh shared seeds each. The project now has 184,400 simulated games (including behaviorally equivalent configurations).
