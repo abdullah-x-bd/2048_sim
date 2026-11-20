@@ -10,3 +10,5 @@ function run(F,h,seed,threshold){
  return {threshold,seed,score,tile:2**Math.max(...board),moves,nodes,trace};
 }
 const F=R.buildFast(E),h=B.evaluator({weights:[1080,700,47,11,4,3.5]});const rows=[];for(const seed of [6000,6001,6002,6003,6004,6005,6006,6007])rows.push(run(F,h,seed,0));fs.writeFileSync(path.join(__dirname,'games.csv'),R.csv(rows));
+
+const deeper=[];for(const seed of [6000,6001,6002,6003])deeper.push(run(F,h,seed,2));fs.writeFileSync(path.join(__dirname,'deeper-games.csv'),R.csv(deeper));
