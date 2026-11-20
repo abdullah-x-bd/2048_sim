@@ -1,0 +1,12 @@
+policy,n,wins,reach1024,mean_score,mean_moves
+two_probe_at_2,50,28,42,17758.88,931.1
+two_probe_at_4,50,38,49,19565.84,985.12
+two_probe_at_6,50,35,49,19266.72,980.38
+two_probe_at_8,50,37,49,19557.04,989.46
+two_probe_at_16,50,38,50,20143.68,1014.28
+one_probe_at_4,50,32,44,18035.44,928.4
+one_probe_at_6,50,29,47,18334.08,954.86
+one_probe_at_16,50,29,47,18368.8,956.2
+grouped_probe_at_6,50,29,45,18160.72,947.78
+grouped_probe_at_16,50,31,44,17918.32,926.8
+grouped_one_step,50,9,37,14259.76,824.32
