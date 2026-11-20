@@ -1,0 +1,47 @@
+{
+  "null": "p <= 0.5",
+  "alternative": "p > 0.5",
+  "method": "Exact one-sided binomial; Holm over five final holdout policies",
+  "results": [
+    {
+      "policy": "merge_next_at_4",
+      "n": 300,
+      "wins": 194,
+      "rate": 0.6466666666666666,
+      "p_one_sided": 2.120292793447261e-7,
+      "holm_p": 0.0000010601463967236306
+    },
+    {
+      "policy": "nearest_at_4",
+      "n": 300,
+      "wins": 192,
+      "rate": 0.64,
+      "p_one_sided": 7.103289951811337e-7,
+      "holm_p": 0.0000028413159807245348
+    },
+    {
+      "policy": "shortlist_at_4",
+      "n": 300,
+      "wins": 172,
+      "rate": 0.5733333333333334,
+      "p_one_sided": 0.006455917817744927,
+      "holm_p": 0.01936775345323478
+    },
+    {
+      "policy": "grouped_single_4_lower_space",
+      "n": 300,
+      "wins": 170,
+      "rate": 0.5666666666666667,
+      "p_one_sided": 0.012090991236631361,
+      "holm_p": 0.024181982473262722
+    },
+    {
+      "policy": "grouped_single_6",
+      "n": 300,
+      "wins": 143,
+      "rate": 0.4766666666666667,
+      "p_one_sided": 0.8067450864436295,
+      "holm_p": 0.8067450864436295
+    }
+  ]
+}
