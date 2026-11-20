@@ -1,0 +1,9 @@
+policy,n,wins,reach1024,mean_score,mean_moves
+shortlist_at_4,50,29,47,18404.56,963.58
+nearest_at_4,50,31,47,18596.56,960.44
+merge_next_at_4,50,31,48,19628.72,1023.42
+shortlist_at_6,50,22,43,17616.16,953.4
+nearest_at_6,50,28,42,17219.12,903.06
+merge_next_at_6,50,30,49,19567.6,1021.48
+shortlist_nearest_at_6,50,23,42,17101.84,920.7
+shortlist_nearest_merge_at_6,50,29,47,18526.8,967.88
