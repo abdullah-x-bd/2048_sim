@@ -1,0 +1,16 @@
+policy,n,wins,reach1024,mean_score
+simple_large_typical_spawn,50,41,49,20577.84
+simple_order_typical_spawn,50,39,47,20644.4
+simple_steps_typical_spawn,50,37,48,20241.84
+simple_space_typical_spawn,50,31,48,19954.16
+simple_count_typical_spawn,50,24,48,17746.88
+simple_large_two_moves,50,22,40,15994.88
+simple_space_one_move,50,9,39,15603.68
+simple_steps_one_move,50,8,41,15169.92
+simple_order_two_moves,50,8,26,11905.68
+simple_steps_two_moves,50,7,40,14178.08
+simple_space_two_moves,50,6,36,13232.48
+simple_count_one_move,50,6,31,11706.24
+simple_count_two_moves,50,1,27,10859.84
+simple_order_one_move,50,0,16,8880.96
+simple_large_one_move,50,0,10,8573.84
