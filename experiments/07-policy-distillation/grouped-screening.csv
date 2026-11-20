@@ -1,0 +1,12 @@
+policy,n,wins,reach1024,mean_score,mean_moves
+grouped_single_4,50,26,43,17426.08,920.04
+grouped_single_6,50,35,49,19355.2,985.14
+grouped_single_16,50,25,42,17087.36,905.76
+three_size_single_4,50,23,43,17106.24,913.9
+three_size_single_6,50,21,46,17238.72,928.9
+three_size_single_16,50,27,46,17230.56,898.04
+bad_bends_single_4,50,25,42,17219.52,910.4
+bad_bends_single_6,50,28,46,18473.68,968.88
+bad_bends_single_16,50,29,47,18318.4,952.7
+grouped_single_4_higher_space,50,20,44,17071.28,926.32
+grouped_single_4_lower_space,50,33,47,19109.12,980.32
