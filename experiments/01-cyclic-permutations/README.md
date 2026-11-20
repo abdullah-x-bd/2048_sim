@@ -28,4 +28,5 @@ Run `node experiments/01-cyclic-permutations/run.js` from the repository root.
 - games.csv: one record per game, including invalid attempt counts.
 - summary.csv: per-pattern statistics.
 
-The initial dataset records attempted and invalid move counts per game, not a separate event-by-event trace. A subsequent trace file can preserve every individual attempted direction and whether it changed the board.
+- step-traces.csv: one binary string per game, with one character per attempted input in chronological order. 1 means the board changed and 0 means it did not. The attempted direction at zero-based index i is pattern[i % 4]. All 2,400 traces were replayed and checked against recorded totals, scores and maximum tiles.
+- trace.js: regenerate and verify traces with `node experiments/01-cyclic-permutations/trace.js`.
