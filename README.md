@@ -48,6 +48,14 @@ console.log(state);
 
 The engine separates player actions from random environment transitions, so expectimax, Monte Carlo methods, heuristic search and reinforcement learning can all use the same rules. The initial version contains no solver.
 
+## Experiment 07: simplified majority-winning policies
+
+[Policy distillation and final holdout](experiments/07-policy-distillation/) adds 5850 completed game configurations, bringing the project total to 195,700. Sparse imitation of the 73.33% computational teacher failed in closed-loop testing. A coarse positional score and single hypothetical 2-spawn when the board has four or fewer empty cells produced four policies significantly above 50% on 300 fresh seeds each (Holm-adjusted exact tests). A two-candidate shortlist won 172/300 (57.33%; Wilson 95% CI 51.68% to 62.80%); probing was indicated on 36.90% of moves. A most-merges-next variant won 194/300 (64.67%; CI 59.10% to 69.86%). [Exact rules and data](experiments/07-policy-distillation/README.md).
+
+![Independent final holdout](experiments/07-policy-distillation/win-rates.svg)
+
+These are compact computational rules, not a demonstrated casual human policy. Board arithmetic and hypothetical continuations remain; actual human win probability is untested. The original human objective remains open.
+
 ## Literature-guided research (Experiments 05 and 06)
 
 [Experiment 06: literature review and benchmarks](experiments/06-literature-guided/) includes published human-oriented heuristic research, stochastic search, and learned afterstate evaluation. The project has 189,850 completed game configurations across all experiments. The first independently validated computational reference exceeding 50% is **space_1080: 220/300 wins (73.33%; Wilson 95% CI 68.06% to 78.02%)**. It uses weighted positional evaluation and stochastic lookahead, not a simple human policy. The best coarse stochastic holdout reaches 24%; the best simplified deterministic two-move holdout reaches 0.5%. The human objective remains unmet.
