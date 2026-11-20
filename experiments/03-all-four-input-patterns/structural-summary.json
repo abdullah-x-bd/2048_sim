@@ -1,0 +1,752 @@
+{
+  "overall": {
+    "patterns": 256,
+    "games": 128000,
+    "mean_score": 1173.9521875000003,
+    "mean_moves": 116.77593749999998,
+    "mean_attempts": 131.55432031249993,
+    "stagnation": 0.39265625,
+    "reach256": 20656,
+    "reach512": 3184,
+    "reach1024": 37,
+    "reach2048": 0,
+    "best_score": 13296,
+    "best_tile": 1024,
+    "corner_fraction": 0.2416511454896261,
+    "mean_empty": 4.622510657428895,
+    "invalid_rate": 0.11233673495020745
+  },
+  "by_distinct": {
+    "1": {
+      "patterns": 4,
+      "games": 2000,
+      "mean_score": 13.554,
+      "mean_moves": 5.5120000000000005,
+      "mean_attempts": 9.512,
+      "stagnation": 1,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 188,
+      "best_tile": 16,
+      "corner_fraction": 0.7005624092888243,
+      "mean_empty": 10.900399129172714,
+      "invalid_rate": 0.42052144659377627
+    },
+    "2": {
+      "patterns": 84,
+      "games": 42000,
+      "mean_score": 135.34057142857142,
+      "mean_moves": 27.089047619047626,
+      "mean_attempts": 35.40957142857143,
+      "stagnation": 0.9975714285714286,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 1680,
+      "best_tile": 128,
+      "corner_fraction": 0.7474967918856679,
+      "mean_empty": 7.961056128816776,
+      "invalid_rate": 0.23497951186187208
+    },
+    "3": {
+      "patterns": 144,
+      "games": 72000,
+      "mean_score": 1759.2120000000002,
+      "mean_moves": 167.51870833333328,
+      "mean_attempts": 188.38473611111115,
+      "stagnation": 0.08836111111111111,
+      "reach256": 17847,
+      "reach512": 2965,
+      "reach1024": 37,
+      "reach2048": 0,
+      "best_score": 13296,
+      "best_tile": 1024,
+      "corner_fraction": 0.21273030284262615,
+      "mean_empty": 4.28295769950073,
+      "invalid_rate": 0.11076283678031527
+    },
+    "4": {
+      "patterns": 24,
+      "games": 12000,
+      "mean_score": 1490.9336666666666,
+      "mean_moves": 144.76741666666666,
+      "mean_attempts": 147.4188333333333,
+      "stagnation": 0,
+      "reach256": 2809,
+      "reach512": 219,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 7092,
+      "best_tile": 512,
+      "corner_fraction": 0.10824431602645394,
+      "mean_empty": 4.753676155258233,
+      "invalid_rate": 0.01798560337722566
+    }
+  },
+  "by_turn": {
+    "0": {
+      "patterns": 32,
+      "games": 16000,
+      "mean_score": 82.36025000000002,
+      "mean_moves": 27.367437500000005,
+      "mean_attempts": 35.46249999999999,
+      "stagnation": 0.993625,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 252,
+      "best_tile": 32,
+      "corner_fraction": 0.41867730583106294,
+      "mean_empty": 6.231899680048596,
+      "invalid_rate": 0.22827106097990843
+    },
+    "2": {
+      "patterns": 192,
+      "games": 96000,
+      "mean_score": 1135.5385416666666,
+      "mean_moves": 117.50639583333337,
+      "mean_attempts": 133.11617708333327,
+      "stagnation": 0.28172916666666664,
+      "reach256": 12336,
+      "reach512": 586,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 8008,
+      "best_tile": 512,
+      "corner_fraction": 0.28345567005483896,
+      "mean_empty": 4.464478883862171,
+      "invalid_rate": 0.1172643445148517
+    },
+    "4": {
+      "patterns": 32,
+      "games": 16000,
+      "mean_score": 2496.0260000000003,
+      "mean_moves": 201.80168749999999,
+      "mean_attempts": 218.27500000000003,
+      "stagnation": 0.45725,
+      "reach256": 8320,
+      "reach512": 2598,
+      "reach1024": 37,
+      "reach2048": 0,
+      "best_score": 13296,
+      "best_tile": 1024,
+      "corner_fraction": 0.0715903949019257,
+      "mean_empty": 4.956371152743706,
+      "invalid_rate": 0.07547045012026116
+    }
+  },
+  "by_reversal": {
+    "0": {
+      "patterns": 84,
+      "games": 42000,
+      "mean_score": 1043.7460000000003,
+      "mean_moves": 91.93809523809523,
+      "mean_attempts": 103.33421428571435,
+      "stagnation": 0.7932380952380952,
+      "reach256": 8320,
+      "reach512": 2598,
+      "reach1024": 37,
+      "reach2048": 0,
+      "best_score": 13296,
+      "best_tile": 1024,
+      "corner_fraction": 0.21413010825089349,
+      "mean_empty": 5.623621225462268,
+      "invalid_rate": 0.11028408283155185
+    },
+    "1": {
+      "patterns": 96,
+      "games": 48000,
+      "mean_score": 1556.6731666666665,
+      "mean_moves": 154.97147916666668,
+      "mean_attempts": 177.32218750000004,
+      "stagnation": 0.05570833333333333,
+      "reach256": 9814,
+      "reach512": 549,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 8008,
+      "best_tile": 512,
+      "corner_fraction": 0.2536000239829076,
+      "mean_empty": 4.189468868666827,
+      "invalid_rate": 0.1260457512308398
+    },
+    "2": {
+      "patterns": 72,
+      "games": 36000,
+      "mean_score": 875.9781111111113,
+      "mean_moves": 99.65486111111113,
+      "mean_attempts": 108.88133333333339,
+      "stagnation": 0.3415,
+      "reach256": 2522,
+      "reach512": 37,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 6516,
+      "best_tile": 512,
+      "corner_fraction": 0.24423907514128612,
+      "mean_empty": 4.418184985679741,
+      "invalid_rate": 0.08473878799753447
+    },
+    "4": {
+      "patterns": 4,
+      "games": 2000,
+      "mean_score": 86.512,
+      "mean_moves": 29.857,
+      "mean_attempts": 33.8615,
+      "stagnation": 0.988,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 192,
+      "best_tile": 16,
+      "corner_fraction": 0.3773319489566936,
+      "mean_empty": 6.105971798908129,
+      "invalid_rate": 0.11826115204583378
+    }
+  },
+  "by_repeat": {
+    "0": {
+      "patterns": 84,
+      "games": 42000,
+      "mean_score": 1679.2147619047628,
+      "mean_moves": 154.97559523809522,
+      "mean_attempts": 166.64757142857138,
+      "stagnation": 0.2300952380952381,
+      "reach256": 10842,
+      "reach512": 2635,
+      "reach1024": 37,
+      "reach2048": 0,
+      "best_score": 13296,
+      "best_tile": 1024,
+      "corner_fraction": 0.15007524226164637,
+      "mean_empty": 4.605088666034207,
+      "invalid_rate": 0.07003988171216192
+    },
+    "1": {
+      "patterns": 96,
+      "games": 48000,
+      "mean_score": 1556.6731666666665,
+      "mean_moves": 154.97147916666668,
+      "mean_attempts": 177.32218750000004,
+      "stagnation": 0.05570833333333333,
+      "reach256": 9814,
+      "reach512": 549,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 8008,
+      "best_tile": 512,
+      "corner_fraction": 0.2536000239829076,
+      "mean_empty": 4.189468868666827,
+      "invalid_rate": 0.1260457512308398
+    },
+    "2": {
+      "patterns": 72,
+      "games": 36000,
+      "mean_score": 138.6511111111111,
+      "mean_moves": 27.46361111111111,
+      "mean_attempts": 36.36850000000001,
+      "stagnation": 0.9978333333333333,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 1680,
+      "best_tile": 128,
+      "corner_fraction": 0.7495180491357252,
+      "mean_empty": 7.925295087438936,
+      "invalid_rate": 0.24485169553016717
+    },
+    "4": {
+      "patterns": 4,
+      "games": 2000,
+      "mean_score": 13.554,
+      "mean_moves": 5.5120000000000005,
+      "mean_attempts": 9.512,
+      "stagnation": 1,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 188,
+      "best_tile": 16,
+      "corner_fraction": 0.7005624092888243,
+      "mean_empty": 10.900399129172714,
+      "invalid_rate": 0.42052144659377627
+    }
+  },
+  "by_bias": {
+    "0.000000": {
+      "patterns": 36,
+      "games": 18000,
+      "mean_score": 1023.4644444444444,
+      "mean_moves": 106.52544444444446,
+      "mean_attempts": 110.60672222222222,
+      "stagnation": 0.33094444444444443,
+      "reach256": 2809,
+      "reach512": 219,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 7092,
+      "best_tile": 512,
+      "corner_fraction": 0.13491142961149608,
+      "mean_empty": 4.880201808853179,
+      "invalid_rate": 0.03689900302422849
+    },
+    "0.353553": {
+      "patterns": 96,
+      "games": 48000,
+      "mean_score": 1394.6965833333334,
+      "mean_moves": 144.2536875,
+      "mean_attempts": 162.2080208333333,
+      "stagnation": 0.033979166666666664,
+      "reach256": 6926,
+      "reach512": 187,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 6768,
+      "best_tile": 512,
+      "corner_fraction": 0.21337626117876532,
+      "mean_empty": 4.082434490048419,
+      "invalid_rate": 0.11068708711871399
+    },
+    "0.500000": {
+      "patterns": 64,
+      "games": 32000,
+      "mean_score": 1889.9164999999996,
+      "mean_moves": 168.2429999999999,
+      "mean_attempts": 190.75615625000003,
+      "stagnation": 0.396,
+      "reach256": 10921,
+      "reach512": 2778,
+      "reach1024": 37,
+      "reach2048": 0,
+      "best_score": 13296,
+      "best_tile": 1024,
+      "corner_fraction": 0.22165149515878838,
+      "mean_empty": 4.624995356418991,
+      "invalid_rate": 0.11802060123551057
+    },
+    "0.707107": {
+      "patterns": 24,
+      "games": 12000,
+      "mean_score": 135.49500000000003,
+      "mean_moves": 22.982416666666666,
+      "mean_attempts": 29.044250000000005,
+      "stagnation": 1,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 1260,
+      "best_tile": 128,
+      "corner_fraction": 0.9524237732469388,
+      "mean_empty": 9.433120972917703,
+      "invalid_rate": 0.20871027254390564
+    },
+    "0.790569": {
+      "patterns": 32,
+      "games": 16000,
+      "mean_score": 172.98174999999995,
+      "mean_moves": 27.193499999999993,
+      "mean_attempts": 36.8934375,
+      "stagnation": 1,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 1680,
+      "best_tile": 128,
+      "corner_fraction": 0.9473357603839158,
+      "mean_empty": 8.842666905694378,
+      "invalid_rate": 0.2629176936955251
+    },
+    "1.000000": {
+      "patterns": 4,
+      "games": 2000,
+      "mean_score": 13.554,
+      "mean_moves": 5.5120000000000005,
+      "mean_attempts": 9.512,
+      "stagnation": 1,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 188,
+      "best_tile": 16,
+      "corner_fraction": 0.7005624092888243,
+      "mean_empty": 10.900399129172714,
+      "invalid_rate": 0.42052144659377627
+    }
+  },
+  "by_class": {
+    "biased_alternating": {
+      "patterns": 16,
+      "games": 8000,
+      "mean_score": 3785.4865000000004,
+      "mean_moves": 294.1395,
+      "mean_attempts": 323.15312500000005,
+      "stagnation": 0.4145,
+      "reach256": 6105,
+      "reach512": 2379,
+      "reach1024": 37,
+      "reach2048": 0,
+      "best_score": 13296,
+      "best_tile": 1024,
+      "corner_fraction": 0.03321765692809025,
+      "mean_empty": 4.7708752989652865,
+      "invalid_rate": 0.08978290090804476
+    },
+    "circular": {
+      "patterns": 8,
+      "games": 4000,
+      "mean_score": 2283.171,
+      "mean_moves": 196.59375000000003,
+      "mean_attempts": 199.2405,
+      "stagnation": 0,
+      "reach256": 2215,
+      "reach512": 219,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 7092,
+      "best_tile": 512,
+      "corner_fraction": 0.08406167540931488,
+      "mean_empty": 4.98426577650612,
+      "invalid_rate": 0.013284196737109172
+    },
+    "other": {
+      "patterns": 224,
+      "games": 112000,
+      "mean_score": 985.0845,
+      "mean_moves": 104.62940178571431,
+      "mean_attempts": 119.1656517857142,
+      "stagnation": 0.38342857142857145,
+      "reach256": 12336,
+      "reach512": 586,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 8008,
+      "best_tile": 512,
+      "corner_fraction": 0.28850842851550934,
+      "mean_empty": 4.530521202683653,
+      "invalid_rate": 0.12198355635346453
+    },
+    "two_direction_alternating": {
+      "patterns": 8,
+      "games": 4000,
+      "mean_score": 129.95999999999998,
+      "mean_moves": 22.334000000000003,
+      "mean_attempts": 27.55325,
+      "stagnation": 1,
+      "reach256": 0,
+      "reach512": 0,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 1260,
+      "best_tile": 128,
+      "corner_fraction": 0.9725530581176678,
+      "mean_empty": 9.596803080505058,
+      "invalid_rate": 0.18942411512253549
+    }
+  },
+  "three_direction_by_transition": {
+    "2T-1R-1S": {
+      "patterns": 96,
+      "games": 48000,
+      "mean_score": 1556.6731666666665,
+      "mean_moves": 154.97147916666668,
+      "mean_attempts": 177.32218750000004,
+      "stagnation": 0.05570833333333333,
+      "reach256": 9814,
+      "reach512": 549,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 8008,
+      "best_tile": 512,
+      "corner_fraction": 0.2536000239829076,
+      "mean_empty": 4.189468868666827,
+      "invalid_rate": 0.1260457512308398
+    },
+    "2T-2R-0S": {
+      "patterns": 32,
+      "games": 16000,
+      "mean_score": 1353.6912500000003,
+      "mean_moves": 141.85000000000002,
+      "mean_attempts": 154.1881875,
+      "stagnation": 0.02325,
+      "reach256": 1928,
+      "reach512": 37,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 6516,
+      "best_tile": 512,
+      "corner_fraction": 0.2648977793443777,
+      "mean_empty": 4.08349621078604,
+      "invalid_rate": 0.08002031608290355
+    },
+    "4T-0R-0S": {
+      "patterns": 16,
+      "games": 8000,
+      "mean_score": 3785.4865000000004,
+      "mean_moves": 294.1395,
+      "mean_attempts": 323.15312500000005,
+      "stagnation": 0.4145,
+      "reach256": 6105,
+      "reach512": 2379,
+      "reach1024": 37,
+      "reach2048": 0,
+      "best_score": 13296,
+      "best_tile": 1024,
+      "corner_fraction": 0.03321765692809025,
+      "mean_empty": 4.7708752989652865,
+      "invalid_rate": 0.08978290090804476
+    },
+    "not_three": {
+      "patterns": 112,
+      "games": 56000,
+      "mean_score": 421.4752857142858,
+      "mean_moves": 51.53523214285717,
+      "mean_attempts": 58.48664285714289,
+      "stagnation": 0.7838928571428572,
+      "reach256": 2809,
+      "reach512": 219,
+      "reach1024": 0,
+      "reach2048": 0,
+      "best_score": 7092,
+      "best_tile": 512,
+      "corner_fraction": 0.362520023576104,
+      "mean_empty": 6.041604339333733,
+      "invalid_rate": 0.11885467133521317
+    }
+  },
+  "top": [
+    {
+      "pattern": "2320",
+      "mean_score": 3952.776,
+      "reach512": 167,
+      "reach1024": 2,
+      "stagnated": 207,
+      "best_score": 10528
+    },
+    {
+      "pattern": "3231",
+      "mean_score": 3946.264,
+      "reach512": 164,
+      "reach1024": 3,
+      "stagnated": 193,
+      "best_score": 13040
+    },
+    {
+      "pattern": "0102",
+      "mean_score": 3907.176,
+      "reach512": 169,
+      "reach1024": 1,
+      "stagnated": 200,
+      "best_score": 12144
+    },
+    {
+      "pattern": "2313",
+      "mean_score": 3902.208,
+      "reach512": 150,
+      "reach1024": 3,
+      "stagnated": 183,
+      "best_score": 12628
+    },
+    {
+      "pattern": "1323",
+      "mean_score": 3885.984,
+      "reach512": 160,
+      "reach1024": 2,
+      "stagnated": 220,
+      "best_score": 12356
+    },
+    {
+      "pattern": "2010",
+      "mean_score": 3801.496,
+      "reach512": 154,
+      "reach1024": 1,
+      "stagnated": 196,
+      "best_score": 10160
+    },
+    {
+      "pattern": "3101",
+      "mean_score": 3800.552,
+      "reach512": 145,
+      "reach1024": 3,
+      "stagnated": 207,
+      "best_score": 13260
+    },
+    {
+      "pattern": "3202",
+      "mean_score": 3789.624,
+      "reach512": 152,
+      "reach1024": 3,
+      "stagnated": 215,
+      "best_score": 13296
+    },
+    {
+      "pattern": "3132",
+      "mean_score": 3766.128,
+      "reach512": 143,
+      "reach1024": 4,
+      "stagnated": 209,
+      "best_score": 11580
+    },
+    {
+      "pattern": "0232",
+      "mean_score": 3758.008,
+      "reach512": 145,
+      "reach1024": 2,
+      "stagnated": 204,
+      "best_score": 11380
+    },
+    {
+      "pattern": "2023",
+      "mean_score": 3754.552,
+      "reach512": 140,
+      "reach1024": 5,
+      "stagnated": 197,
+      "best_score": 12752
+    },
+    {
+      "pattern": "1020",
+      "mean_score": 3753.152,
+      "reach512": 148,
+      "reach1024": 0,
+      "stagnated": 211,
+      "best_score": 9148
+    },
+    {
+      "pattern": "0201",
+      "mean_score": 3678.304,
+      "reach512": 151,
+      "reach1024": 2,
+      "stagnated": 208,
+      "best_score": 12212
+    },
+    {
+      "pattern": "1013",
+      "mean_score": 3634.088,
+      "reach512": 141,
+      "reach1024": 1,
+      "stagnated": 230,
+      "best_score": 10784
+    },
+    {
+      "pattern": "1310",
+      "mean_score": 3627.648,
+      "reach512": 123,
+      "reach1024": 3,
+      "stagnated": 221,
+      "best_score": 13196
+    },
+    {
+      "pattern": "0131",
+      "mean_score": 3609.824,
+      "reach512": 127,
+      "reach1024": 2,
+      "stagnated": 215,
+      "best_score": 12584
+    },
+    {
+      "pattern": "3102",
+      "mean_score": 2363.304,
+      "reach512": 38,
+      "reach1024": 0,
+      "stagnated": 0,
+      "best_score": 6400
+    },
+    {
+      "pattern": "0231",
+      "mean_score": 2313.536,
+      "reach512": 25,
+      "reach1024": 0,
+      "stagnated": 0,
+      "best_score": 6524
+    },
+    {
+      "pattern": "1320",
+      "mean_score": 2311.816,
+      "reach512": 22,
+      "reach1024": 0,
+      "stagnated": 0,
+      "best_score": 6028
+    },
+    {
+      "pattern": "1023",
+      "mean_score": 2290.376,
+      "reach512": 31,
+      "reach1024": 0,
+      "stagnated": 0,
+      "best_score": 6380
+    }
+  ],
+  "reached1024": [
+    [
+      "2320",
+      2
+    ],
+    [
+      "3231",
+      3
+    ],
+    [
+      "0102",
+      1
+    ],
+    [
+      "2313",
+      3
+    ],
+    [
+      "1323",
+      2
+    ],
+    [
+      "2010",
+      1
+    ],
+    [
+      "3101",
+      3
+    ],
+    [
+      "3202",
+      3
+    ],
+    [
+      "3132",
+      4
+    ],
+    [
+      "0232",
+      2
+    ],
+    [
+      "2023",
+      5
+    ],
+    [
+      "0201",
+      2
+    ],
+    [
+      "1013",
+      1
+    ],
+    [
+      "1310",
+      3
+    ],
+    [
+      "0131",
+      2
+    ]
+  ],
+  "total_attempts": 16838953,
+  "total_valid": 14947320
+}
