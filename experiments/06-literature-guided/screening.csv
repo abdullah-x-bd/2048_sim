@@ -1,0 +1,13 @@
+policy,n,wins,rate,reach1024,mean_score,mean_moves
+simple_combined,50,1,0.02,27,10260.4,628.6
+simple_big_penalty,50,0,0,25,9917.36,613.4
+space_safe_2,50,0,0,23,9638.64,600.7
+empty_order_2,50,0,0,22,9266.64,579.98
+safe_pairs_2,50,0,0,22,9266.64,579.98
+simple_big_penalty_soft,50,0,0,22,9612.64,601.68
+simple_combined_2,50,0,0,21,9166.72,577.06
+big_order_2,50,0,0,16,7955.36,512.5
+corner_order_2,50,0,0,7,6958.24,470.42
+simple_big_penalty_1,50,0,0,7,6740.32,452.54
+empty_order,50,0,0,4,5292.24,373.68
+pairs_first_2,50,0,0,0,3391.28,262.56
