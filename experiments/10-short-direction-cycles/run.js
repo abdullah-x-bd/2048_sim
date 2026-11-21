@@ -15,6 +15,7 @@ function generate(){
   add("twelve_step_rolling_triples",String(a)+b+c+b+c+d+c+d+a+d+a+b);
   const p=String(a)+b+c+d;const vertical=x=>x===0||x===3;add([...p].every((x,i)=>vertical(Number(x))!==vertical(Number(p[(i+1)%4])))?"four_step_circular_baseline":"four_step_non_circular_baseline",p);
  }
+ for(let i=0;i<256;i++){const p=i.toString(4).padStart(4,'0');const vertical=d=>d==='0'||d==='3';if(exactWord(p,3)&&[...p].every((d,j)=>vertical(d)!==vertical(p[(j+1)%4])))add("four_step_biased_baseline",p);}
  return list;
 }
 
