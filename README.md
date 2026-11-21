@@ -49,6 +49,12 @@ console.log(state);
 The engine separates player actions from random environment transitions, so expectimax, Monte Carlo methods, heuristic search and reinforcement learning can all use the same rules. The initial version contains no solver.
 
 
+## Experiment 10: short two-direction and three-direction cycles
+
+[New 92000-game experiment](experiments/10-short-direction-cycles/) tests 184 fixed repeating policies, including 01, 012, 010102, overlapping 012|123, rolling three-input windows, and paired baselines on 500 fresh seeds each. Two-direction cycles stagnate in more than 99.6% of games. The strongest family remains asymmetric four-step three-direction alternation, averaging 3776 points versus 3185 for six-step sweeps (seed-paired difference 591.22, 95% CI [526.37, 656.08]). No game reached 2048; the maximum was 1024. Thus blind short cycles do not currently offer a credible route to 65536. [Full analysis and exact counting formulas](experiments/10-short-direction-cycles/README.md).
+
+![Short cyclic strategy families](experiments/10-short-direction-cycles/figures/family-mean-score.svg)
+
 ## Experiment 08: extended play and theoretical ceiling
 
 [Extended-play research](experiments/08-extended-play/) records 12 completed search configurations and a spawn-mass upper bound of approximately 9.09% for reaching 131072 under standard independent random spawning. External solvers report 86.1% at 32768 and 8.4% at 65536; the optimal majority-success tile is either 32768 or 65536. The latter remains unresolved. Our initial extended-play pilot reached 4096, not the external state of the art.
